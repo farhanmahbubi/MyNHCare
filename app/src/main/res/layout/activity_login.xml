@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bglogin"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ImageView
@@ -20,10 +21,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="100dp"
-        android:text="MASUK"
-        android:textColor="#000000"
-        android:textSize="35sp"
+        android:layout_marginTop="80dp"
+        android:text="Masuk"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -32,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/rounded_login"
-        android:layout_marginTop="217dp"
+        android:layout_marginTop="150dp"
         android:orientation="vertical">
 
         <TextView
@@ -40,9 +41,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
             android:text="Email"
             android:textColor="#000000"
-            android:textSize="35sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <EditText
@@ -56,7 +58,7 @@
             android:inputType="text"
             android:paddingLeft="25dp"
             android:textColorHint="#A6A5A5"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textStyle="italic" />
 
         <TextView
@@ -67,7 +69,7 @@
             android:layout_marginLeft="16dp"
             android:text="Password"
             android:textColor="#000000"
-            android:textSize="35sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <EditText
@@ -81,7 +83,7 @@
             android:inputType="text"
             android:paddingLeft="25dp"
             android:textColorHint="#A6A5A5"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textStyle="italic" />
 
         <TextView
@@ -99,13 +101,13 @@
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_marginTop="15dp"
-            android:text="Login"
+            android:text="Masuk"
             android:textSize="25dp"/>
         <Button
             android:id="@+id/buttonRegister"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:text="Register"
+            android:text="Daftar"
             android:textSize="25dp"/>
 
     </LinearLayout>
