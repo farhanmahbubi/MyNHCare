@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bglogin"
+    android:background="@drawable/bckfix"
+    android:layout_gravity="center"
+    android:padding="8dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ImageView
@@ -57,7 +59,7 @@
             android:hint="Masukkan Email"
             android:inputType="text"
             android:paddingLeft="25dp"
-            android:textColorHint="#A6A5A5"
+            android:textColorHint="#000000"
             android:textSize="18sp"
             android:textStyle="italic" />
 
@@ -82,7 +84,7 @@
             android:hint="Masukkan Password"
             android:inputType="text"
             android:paddingLeft="25dp"
-            android:textColorHint="#A6A5A5"
+            android:textColorHint="#000000"
             android:textSize="18sp"
             android:textStyle="italic" />
 
@@ -91,24 +93,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Lupa password?"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="8dp"
             android:layout_marginLeft="260dp"
             android:textSize="17sp"
             android:textStyle="italic" />
 
         <Button
+            style="@style/Widget.Material3.Button.OutlinedButton"
             android:id="@+id/buttonLogin"
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
             android:layout_marginTop="15dp"
             android:text="Masuk"
-            android:textSize="25dp"/>
+            android:backgroundTint="@color/white"
+            android:textSize="25dp"
+            android:textColor="@color/primary_colour"
+            app:strokeColor="@color/primary_colour"/>
         <Button
             android:id="@+id/buttonRegister"
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/primary_colour"
             android:text="Daftar"
-            android:textSize="25dp"/>
+            android:textSize="25dp"
+            />
 
     </LinearLayout>
 

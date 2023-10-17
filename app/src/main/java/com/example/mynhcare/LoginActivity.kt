@@ -26,7 +26,7 @@ class LoginActivity : AppCompatActivity() {
             val username = usernameInput.text.toString()
             val password = passwordInput.text.toString()
 
-            if (username == "exampleuser" && password == "password123") {
+            if (username == "user123" && password == "password123") {
                 // Login berhasil, alihkan ke aktivitas lain (misalnya, MainActivity)
                 val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
